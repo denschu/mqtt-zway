@@ -1,0 +1,31 @@
+{
+  "author": "Dennis Schulte <mail@dennis-schulte.de>",
+  "name": "mqtt-zway",
+  "description": "Simple Z-Way Bridge for MQTT",
+  "version": "1.0.0",
+  "keywords": [
+    "mqtt",
+    "z-way",
+    "z-wave",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denschu/mqtt-zway.git"
+  },
+  "main": "mqtt-zway",
+  "bin": {
+    "mqtt-zway": "mqtt-zway.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "mqtt": ">=0.2.0",
+    "optimist": ">=0.3.1",
+    "npmlog": ">=0.0.2",
+    "restler": "~3.1.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

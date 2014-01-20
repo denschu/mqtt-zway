@@ -1,0 +1,17 @@
+[
+   {
+      "topic_incoming": "/home/devices/wohnzimmer/stehlampe_couch/value/set",
+      "topic_outgoing": "/home/devices/wohnzimmer/stehlampe_couch/value",
+      "url": "http://homepi.local:8083/ZWaveAPI/Run/devices[2].instances[0].SwitchMultilevel.Set(<value>)"
+    },
+   {
+      "topic_incoming": "/home/devices/wohnzimmer/thermostat/value/set",
+      "topic_outgoing": "/home/devices/wohnzimmer/thermostat/value",
+      "url": "http://homepi.local:8083/ZWaveAPI/Run/devices[3].instances[0].ThermostatSetPoint.Set(1,<value>)"
+    },
+   {
+      "topic_incoming": "/home/devices/badezimmer/thermostat/value/set",
+      "topic_outgoing": "/home/devices/badezimmer/thermostat/value",
+      "url": "http://homepi.local:8083/ZWaveAPI/Run/devices[6].instances[0].ThermostatSetPoint.Set(1,<value>)"
+    }
+]
