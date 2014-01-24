@@ -1,0 +1,17 @@
+[
+   {
+      "topic_incoming": "/home/devices/livingroom/light3/value/set",
+      "topic_outgoing": "/home/devices/livingroom/light3/value",
+      "url": "http://raspberrypi.local:8083/ZWaveAPI/Run/devices[2].instances[0].SwitchMultilevel.Set(<value>)"
+    },
+   {
+      "topic_incoming": "/home/devices/livingroom/thermostat/value/set",
+      "topic_outgoing": "/home/devices/livingroom/thermostat/value",
+      "url": "http://raspberrypi.local:8083/ZWaveAPI/Run/devices[3].instances[0].ThermostatSetPoint.Set(1,<value>)"
+    },
+   {
+      "topic_incoming": "/home/devices/bathroom/thermostat/value/set",
+      "topic_outgoing": "/home/devices/bathroom/thermostat/value",
+      "url": "http://raspberrypi.local:8083/ZWaveAPI/Run/devices[6].instances[0].ThermostatSetPoint.Set(1,<value>)"
+    }
+]

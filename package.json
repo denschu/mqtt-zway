@@ -17,6 +17,7 @@
   "bin": {
     "mqtt-zway": "mqtt-zway.js"
   },
+  "scripts": { "start" : "./mqtt-zway.js" },
   "engines": {
     "node": ">=0.8.0"
   },
