@@ -2,7 +2,7 @@
   "author": "Dennis Schulte <mail@dennis-schulte.de>",
   "name": "mqtt-zway",
   "description": "Simple Z-Way Bridge for MQTT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "mqtt",
     "z-way",

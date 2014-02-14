@@ -4,7 +4,7 @@ Simple bridge between MQTT and Z-Way.
 
 ## Setup
 
-	npm install mqtt-zway -g
+	sudo /opt/node/bin/npm install mqtt-zway -g
 
 ## Start 
 
